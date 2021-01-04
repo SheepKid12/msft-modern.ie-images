@@ -111,3 +111,4 @@ It is not currently possible to rearm the trial period of **Windows 8.1 or 10** 
 - Archived links
     - [Windows Vista](https://gist.github.com/zmwangx/e728c56f428bc703c6f6#gistcomment-3196040)
     - [IA Links](https://gist.github.com/zmwangx/e728c56f428bc703c6f6#gistcomment-3115797)
+- [Original source](https://github.com/magnetikonline/linux-microsoft-ie-virtual-machines)
