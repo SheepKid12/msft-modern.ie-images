@@ -25,7 +25,7 @@ These images have been tested under Arch Linux with [VirtualBox](https://www.vir
 - It's a smart idea to keep a clean copy of each `ovf` disk image once the OS usage period ends to avoid a full image re-download hit.
 - Recommended 1GB minimum (2GB for Win10).
 - After installing, you will need to [activate the trial](#activating-images) to get the full 90 days usage period, after which you may be able to [rearm the image](#rearming-images).
-- You *may* experience an issue where sound doesn't work. I haven't been able to determine a fix for this issue.
+- If you have no sound from the VM, switch to `Intel HD Audio`.
 - If prompted for a password, enter `Passw0rd!`.
 
 ## Available images
