@@ -15,32 +15,34 @@ These images have been tested under Arch Linux with [VirtualBox](https://www.vir
 1. After extracting the image, either open the `ovf` file or (from VirtualBox) go to `File` -> `Import Appliance...`.
 2. Select the decompressed Open Virtualization Format (`ovf`) file.
 3. Review virtual machine name and settings (adjusting to preference if required), then click `Import`.
-4. Before starting the image, create a snapshot of the current machine state - this will allow you to quickly roll back to a fresh virtual machine once the usage period of the OS expires. You could also attempt to activate the image for longer through *other means*, but you're on your own with that.
+4. (Optional) Before starting the image, create a snapshot of the current machine state - this will allow you to quickly roll back to a fresh virtual machine once the usage period of the OS expires. You could also attempt to activate the image for longer through *other means*, but you're on your own with that.
 
 ## General notes
 - Images are **32bit** virtual machines *except* for the following, which are **64 bit**:
+	- Windows 8.1
 	- Windows 10 Stable  (13.10586 & higher)
 	- Windows 10 Preview (14.14342 & higher)
-- You may need to update/install the **VirtualBox Guest Additions** after VM startup to match that of your VirtualBox version. **Note:** you may need to manually add a virtual CD drive to the VM for this to work.
+- You may need to update/install the **VirtualBox Guest Additions** after VM startup. **Note:** If not already added, you may need to manually add a virtual CD drive to the VM for this to work.
 - It's a smart idea to keep a clean copy of each `ovf` disk image once the OS usage period ends to avoid a full image re-download hit.
 - Recommended 1GB minimum (2GB for Win10).
 - After installing, you will need to [activate the trial](#activating-images) to get the full 90 days usage period, after which you may be able to [rearm the image](#rearming-images).
 - If you have no sound from the VM, switch to `Intel HD Audio`.
 - If prompted for a password, enter `Passw0rd!`.
+- Win8.1-10: it is possible to convert the enterprise version to pro, but it requires registry tweaking and a reinstall (you can keep data).
 
 ## Available images
 
-### Windows XP
+### Windows XP (Professional Edition w/SP3)
 
 - [IE6 (IA)](https://archive.org/download/ie6.xp.virtualbox/IE6.XP.VirtualBox.zip)
 
 - [IE8 (IA)](https://archive.org/download/ie6.xp.virtualbox/IE8.XP.VirtualBox.zip)
 
-### Windows Vista
+### Windows Vista (Enterprise w/SP2)
 
 - [IE7 (GDrive)](https://drive.google.com/uc?export=download&id=0B6ErFLUmGTfaV1Q0QndxYVViV2c)
 
-### Windows 7
+### Windows 7 (Enterprise)
 
 - [IE8 (MSFT Link)](https://az792536.vo.msecnd.net/vms/VMBuild_20150916/VirtualBox/IE8/IE8.Win7.VirtualBox.zip)
 
@@ -51,7 +53,7 @@ These images have been tested under Arch Linux with [VirtualBox](https://www.vir
 - [IE11 (IA)](https://archive.org/download/ie11.win7.virtualbox/IE11.Win7.VirtualBox.zip)
 
 
-### Windows 8.1
+### Windows 8.1 (Enterpsise)
 
 - [IE11 (IA)](https://archive.org/download/ie11.win81.virtualbox/IE11.Win81.VirtualBox.zip)
 
@@ -59,7 +61,7 @@ These images have been tested under Arch Linux with [VirtualBox](https://www.vir
 
 \* - Windows 8.1 Preview
 
-### Windows 10
+### Windows 10 (Enterprise)
 
 - [MS Edge - Windows 10 Stable  (13.10586) - MSFT Link](https://az792536.vo.msecnd.net/vms/VMBuild_20160322/VirtualBox/MSEdge/MSEdge.Win10TH2.VirtualBox.zip)
 
