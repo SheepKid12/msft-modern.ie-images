@@ -112,7 +112,7 @@ It is not possible to rearm the trial period of **Windows 8.1 or 10** images.
 - https://blog.reybango.com/2013/02/04/making-internet-explorer-testing-easier-with-new-ie-vms/
 - API endpoint returning latest Microsoft Virtual Machine builds (thanks to [Antón Molleda](https://twitter.com/molant) for the tip):
 	- https://developer.microsoft.com/en-us/microsoft-edge/api/tools/vms/
-- Archived links
+- Archived links (both came from an issue report on the original source)
     - [Windows Vista](https://gist.github.com/zmwangx/e728c56f428bc703c6f6#gistcomment-3196040)
     - [IA Links](https://gist.github.com/zmwangx/e728c56f428bc703c6f6#gistcomment-3115797)
 - [Original source (no longer maintained)](https://github.com/magnetikonline/linux-microsoft-ie-virtual-machines)
