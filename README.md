@@ -13,7 +13,7 @@ These images have been tested under Arch Linux with [VirtualBox](https://www.vir
 
 ## Installation
 1. After extracting the image, either open the `ovf` file or (from VirtualBox) go to `File` -> `Import Appliance...`.
-2. Select the decompressed Open Virtualization Format (`ovf`) file.
+2. If importing from VirtualBox: select the decompressed Open Virtualization Format (`ovf`) file.
 3. Review virtual machine name and settings (adjusting to preference if required), then click `Import`.
 4. (Optional) Before starting the image, create a snapshot of the current machine state - this will allow you to quickly roll back to a fresh virtual machine once the usage period of the OS expires. You could also attempt to activate the image for longer through *other means*, but you're on your own with that.
 
@@ -23,9 +23,9 @@ These images have been tested under Arch Linux with [VirtualBox](https://www.vir
 	- Windows 10 Stable  (13.10586 & higher)
 	- Windows 10 Preview (14.14342 & higher)
 - You may need to update/install the **VirtualBox Guest Additions** after VM startup. **Note:** If not already added, you may need to manually add a virtual CD drive to the VM for this to work.
-- It's a smart idea to keep a clean copy of each `ovf` disk image once the OS usage period ends to avoid a full image re-download hit.
+- If you're not taking a snapshot of the VM: it's a smart idea to keep a clean copy of each `ovf` file once the OS usage period ends to avoid a full image re-download hit.
 - Recommended 1GB minimum (2GB for Win10).
-- After installing, you will need to [activate the trial](#activating-images) to get the full 90 days usage period, after which you may be able to [rearm the image](#rearming-images).
+- After installing, you may need to [activate the trial](#activating-images) to get the full 90 days usage period, after which you may be able to [rearm the image](#rearming-images).
 - If you have no sound from the VM, switch to `Intel HD Audio`.
 - If prompted for a password, enter `Passw0rd!`.
 - Win8.1-10: it is possible to convert the enterprise version to pro, but it requires registry tweaking and a reinstall (you can keep data).
@@ -57,9 +57,7 @@ These images have been tested under Arch Linux with [VirtualBox](https://www.vir
 
 - [IE11 (IA)](https://archive.org/download/ie11.win81.virtualbox/IE11.Win81.VirtualBox.zip)
 
-- [IE11 (GDrive)\*](https://drive.google.com/uc?export=download&id=0B76gNAvlBE7eUFZEZmlXRTlkeU0)
-
-\* - Windows 8.1 Preview
+- [IE11 (GDrive - Windows 8.1 Preview)](https://drive.google.com/uc?export=download&id=0B76gNAvlBE7eUFZEZmlXRTlkeU0)
 
 ### Windows 10 (Enterprise)
 
@@ -108,11 +106,12 @@ It is not possible to rearm the trial period of **Windows 8.1 or 10** images.
 
 
 ## References
-- https://az792536.vo.msecnd.net/vms/release_notes_license_terms_8_1_15.pdf
-- https://blog.reybango.com/2013/02/04/making-internet-explorer-testing-easier-with-new-ie-vms/
+- [Release Notes & License Terms](https://az792536.vo.msecnd.net/vms/release_notes_license_terms_8_1_15.pdf)
+- [Tutorial from 2013](https://blog.reybango.com/2013/02/04/making-internet-explorer-testing-easier-with-new-ie-vms/)
 - API endpoint returning latest Microsoft Virtual Machine builds (thanks to [Antón Molleda](https://twitter.com/molant) for the tip):
 	- https://developer.microsoft.com/en-us/microsoft-edge/api/tools/vms/
-- Archived links (both came from an issue report on the original source)
+- Archived links (both came from an issue report from the original source)
     - [Windows Vista](https://gist.github.com/zmwangx/e728c56f428bc703c6f6#gistcomment-3196040)
     - [IA Links](https://gist.github.com/zmwangx/e728c56f428bc703c6f6#gistcomment-3115797)
-- [Original source (no longer maintained)](https://github.com/magnetikonline/linux-microsoft-ie-virtual-machines)
+- [Original source this project based off of (no longer looks to be maintained)](https://github.com/magnetikonline/linux-microsoft-ie-virtual-machines)
+- [modern.IE (IA link from 2013 which may have more images not provided here)](https://web.archive.org/web/20130411192722/http://www.modern.ie/en-US/virtualization-tools)
